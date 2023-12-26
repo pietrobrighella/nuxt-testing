@@ -8,8 +8,9 @@
     icon: 'i-heroicons-square-3-stack-3d',
     to: '/about'
   }, {
-    label: 'Breadcrumb',
-    icon: 'i-heroicons-link'
+    label: 'Photo',
+    icon: 'i-heroicons-link',
+    to: '/photo'
   }]
 </script>
 

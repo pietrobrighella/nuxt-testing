@@ -1,3 +1,7 @@
+<script setup>
+  const color = ref("white");
+</script>
+
 <template>
   <div class="container">
     <div>
@@ -14,9 +18,9 @@
 </template>
 
 <style scoped>
-  .container {
-      max-width: 80%;
-      margin: 0 auto;
-      height: 100vh;
-    }
+@import url(./assets/css/main.css);
+h2 {
+  color: v-bind(color);
+}
+
 </style>

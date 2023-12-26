@@ -5,8 +5,10 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-  
+<script setup>
+  const route = useRoute();
+
+  console.log(route.name);
 </script>
 
 <style>

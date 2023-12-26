@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'FarAwayGalaxy';
+  src: url('/fonts/FarAwayGalaxy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+  }
