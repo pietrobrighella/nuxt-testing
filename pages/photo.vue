@@ -1,6 +1,6 @@
 <template>
-  <div v-if="pending" class=" text-white">
-    Loading ...
+  <div v-if="pending" class=" text-white flex flex-wrap">
+    Loading...
   </div>
   <div v-else class="flex flex-wrap">
     <UCard v-for="photo in photos">
